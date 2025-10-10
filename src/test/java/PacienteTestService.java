@@ -1,9 +1,13 @@
 import dao.BD;
 import dao.PacienteDAOH2;
+import model.Domicilio;
 import model.Paciente;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import service.PacienteService;
+
+import java.time.LocalDate;
+import java.util.List;
 
 public class PacienteTestService {
     @Test
@@ -12,8 +16,76 @@ public class PacienteTestService {
         BD.crearTablas();
         PacienteService pacienteService= new PacienteService(new PacienteDAOH2());
         //CUANDO
-        Paciente paciente= pacienteService.buscarPacientePorId(2);
+        Paciente paciente = pacienteService.buscar(2);
         //ENTONCES
         Assertions.assertTrue(paciente!=null);
+    }
+
+    @Test
+    public void crearPaciente() {
+        BD.crearTablas();
+        PacienteService pacienteService = new PacienteService(new PacienteDAOH2());
+
+        //CUANDO
+        Domicilio domicilio = new Domicilio("Calle Nueva", 55, "Springfield", "USA");
+        Paciente nuevo = new Paciente("Lisa", "Simpson", 555555, LocalDate.of(2025, 10, 10), domicilio, "lisa@school.com");
+        Paciente guardado = pacienteService.guardar(nuevo);
+
+        //ENTONCES
+        Assertions.assertNotNull(guardado);
+        Assertions.assertNotNull(guardado.getId());
+        Assertions.assertEquals("Lisa", guardado.getNombre());
+    }
+
+    @Test
+    public void actualizarPaciente() {
+        BD.crearTablas();
+        PacienteService pacienteService = new PacienteService(new PacienteDAOH2());
+        //Cuando
+        Paciente paciente = pacienteService.buscarGenerico("Homero");
+        paciente.setApellido("Thompson");
+        pacienteService.actualizar(paciente);
+
+        Paciente actualizado = pacienteService.buscar(paciente.getId());
+
+        //ENTONCES
+        Assertions.assertEquals("Thompson", actualizado.getApellido());
+    }
+
+    @Test
+    public void eliminarPaciente() {
+        BD.crearTablas();
+        PacienteService pacienteService = new PacienteService(new PacienteDAOH2());
+        //Cuando
+        pacienteService.eliminar(1);
+        Paciente eliminado = pacienteService.buscar(1);
+
+        //ENTONCES
+        Assertions.assertNull(eliminado);
+        Assertions.assertTrue(pacienteService.buscarTodos().size() == 1);
+    }
+
+    @Test
+    public void listarPacientes() {
+        BD.crearTablas();
+        PacienteService pacienteService = new PacienteService(new PacienteDAOH2());
+        //Cuando
+        List<Paciente> pacientes = pacienteService.buscarTodos();
+
+        //ENTONCES
+        Assertions.assertNotNull(pacientes);
+        Assertions.assertTrue(pacientes.size() >= 2);
+    }
+
+    @Test
+    public void buscarGenerico() {
+        BD.crearTablas();
+        PacienteService pacienteService = new PacienteService(new PacienteDAOH2());
+        //Cuando
+        Paciente encontrado = pacienteService.buscarGenerico("marge");
+
+        //ENTONCES
+        Assertions.assertNotNull(encontrado);
+        Assertions.assertEquals("Marge", encontrado.getNombre());
     }
 }
