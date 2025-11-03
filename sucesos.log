@@ -1,0 +1,303 @@
+[2025-11-02 20:16:01] [INFO ] [PacienteDAOH2:79] Iniciando buscar Paciente por ID: 188
+[2025-11-02 20:16:44] [INFO ] [GracefulShutdown:54] Commencing graceful shutdown. Waiting for active requests to complete
+[2025-11-02 20:16:44] [INFO ] [GracefulShutdown:76] Graceful shutdown complete
+[2025-11-02 20:16:44] [INFO ] [LocalContainerEntityManagerFactoryBean:660] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:16:44] [INFO ] [HikariDataSource:349] HikariPool-1 - Shutdown initiated...
+[2025-11-02 20:16:44] [INFO ] [HikariDataSource:351] HikariPool-1 - Shutdown completed.
+[2025-11-02 20:19:57] [INFO ] [UpMicroserviciosApplication:53] Starting UpMicroserviciosApplication using Java 21.0.8 with PID 750061 (/home/mguzman/dev/personal/micro/up_microservicios/target/classes started by mguzman in /home/mguzman/dev/personal/micro/up_microservicios)
+[2025-11-02 20:19:57] [DEBUG] [UpMicroserviciosApplication:54] Running with Spring Boot v3.5.7, Spring v6.2.12
+[2025-11-02 20:19:57] [INFO ] [UpMicroserviciosApplication:652] No active profile set, falling back to 1 default profile: "default"
+[2025-11-02 20:19:58] [INFO ] [RepositoryConfigurationDelegate:145] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-11-02 20:19:58] [INFO ] [RepositoryConfigurationDelegate:213] Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[2025-11-02 20:19:58] [INFO ] [TomcatWebServer:111] Tomcat initialized with port 8080 (http)
+[2025-11-02 20:19:58] [INFO ] [Http11NioProtocol:168] Initializing ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:19:58] [INFO ] [StandardService:168] Starting service [Tomcat]
+[2025-11-02 20:19:58] [INFO ] [StandardEngine:168] Starting Servlet engine: [Apache Tomcat/10.1.48]
+[2025-11-02 20:19:58] [INFO ] [[/]:168] Initializing Spring embedded WebApplicationContext
+[2025-11-02 20:19:58] [INFO ] [ServletWebServerApplicationContext:301] Root WebApplicationContext: initialization completed in 661 ms
+[2025-11-02 20:19:58] [INFO ] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-11-02 20:19:58] [INFO ] [Version:44] HHH000412: Hibernate ORM core version 6.6.33.Final
+[2025-11-02 20:19:58] [INFO ] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+[2025-11-02 20:19:58] [INFO ] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-11-02 20:19:58] [INFO ] [HikariDataSource:109] HikariPool-1 - Starting...
+[2025-11-02 20:19:58] [INFO ] [HikariPool:580] HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:~/clinicaFeliz user=SA
+[2025-11-02 20:19:58] [INFO ] [HikariDataSource:122] HikariPool-1 - Start completed.
+[2025-11-02 20:19:58] [INFO ] [pooling:163] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2025-11-02 20:19:58] [INFO ] [JtaPlatformInitiator:59] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-11-02 20:19:58] [INFO ] [LocalContainerEntityManagerFactoryBean:447] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:19:59] [WARN ] [JpaBaseConfiguration$JpaWebConfiguration:258] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-11-02 20:19:59] [INFO ] [H2ConsoleAutoConfiguration:133] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:~/clinicaFeliz'
+[2025-11-02 20:19:59] [INFO ] [Http11NioProtocol:168] Starting ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:19:59] [INFO ] [TomcatWebServer:243] Tomcat started on port 8080 (http) with context path '/'
+[2025-11-02 20:19:59] [INFO ] [UpMicroserviciosApplication:59] Started UpMicroserviciosApplication in 1.781 seconds (process running for 2.669)
+[2025-11-02 20:20:04] [INFO ] [[/]:168] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-11-02 20:20:04] [INFO ] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+[2025-11-02 20:20:04] [INFO ] [DispatcherServlet:554] Completed initialization in 1 ms
+[2025-11-02 20:20:04] [INFO ] [PacienteDAOH2:79] Iniciando buscar Paciente por ID: 188
+[2025-11-02 20:28:36] [INFO ] [GracefulShutdown:54] Commencing graceful shutdown. Waiting for active requests to complete
+[2025-11-02 20:28:36] [INFO ] [GracefulShutdown:76] Graceful shutdown complete
+[2025-11-02 20:28:36] [INFO ] [LocalContainerEntityManagerFactoryBean:660] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:28:36] [INFO ] [HikariDataSource:349] HikariPool-1 - Shutdown initiated...
+[2025-11-02 20:28:36] [INFO ] [HikariDataSource:351] HikariPool-1 - Shutdown completed.
+[2025-11-02 20:28:39] [INFO ] [UpMicroserviciosApplication:53] Starting UpMicroserviciosApplication using Java 21.0.8 with PID 756049 (/home/mguzman/dev/personal/micro/up_microservicios/target/classes started by mguzman in /home/mguzman/dev/personal/micro/up_microservicios)
+[2025-11-02 20:28:39] [DEBUG] [UpMicroserviciosApplication:54] Running with Spring Boot v3.5.7, Spring v6.2.12
+[2025-11-02 20:28:39] [INFO ] [UpMicroserviciosApplication:652] No active profile set, falling back to 1 default profile: "default"
+[2025-11-02 20:28:39] [INFO ] [RepositoryConfigurationDelegate:145] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-11-02 20:28:39] [INFO ] [RepositoryConfigurationDelegate:213] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[2025-11-02 20:28:39] [INFO ] [TomcatWebServer:111] Tomcat initialized with port 8080 (http)
+[2025-11-02 20:28:39] [INFO ] [Http11NioProtocol:168] Initializing ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:28:39] [INFO ] [StandardService:168] Starting service [Tomcat]
+[2025-11-02 20:28:39] [INFO ] [StandardEngine:168] Starting Servlet engine: [Apache Tomcat/10.1.48]
+[2025-11-02 20:28:39] [INFO ] [[/]:168] Initializing Spring embedded WebApplicationContext
+[2025-11-02 20:28:39] [INFO ] [ServletWebServerApplicationContext:301] Root WebApplicationContext: initialization completed in 580 ms
+[2025-11-02 20:28:39] [INFO ] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-11-02 20:28:40] [INFO ] [Version:44] HHH000412: Hibernate ORM core version 6.6.33.Final
+[2025-11-02 20:28:40] [INFO ] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+[2025-11-02 20:28:40] [INFO ] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-11-02 20:28:40] [INFO ] [HikariDataSource:109] HikariPool-1 - Starting...
+[2025-11-02 20:28:40] [INFO ] [HikariPool:580] HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:~/clinicaFeliz user=SA
+[2025-11-02 20:28:40] [INFO ] [HikariDataSource:122] HikariPool-1 - Start completed.
+[2025-11-02 20:28:40] [INFO ] [pooling:163] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2025-11-02 20:28:40] [INFO ] [JtaPlatformInitiator:59] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-11-02 20:28:40] [INFO ] [LocalContainerEntityManagerFactoryBean:447] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:28:40] [WARN ] [JpaBaseConfiguration$JpaWebConfiguration:258] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-11-02 20:28:40] [INFO ] [WelcomePageHandlerMapping:59] Adding welcome page: class path resource [static/index.html]
+[2025-11-02 20:28:40] [INFO ] [H2ConsoleAutoConfiguration:133] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:~/clinicaFeliz'
+[2025-11-02 20:28:40] [INFO ] [Http11NioProtocol:168] Starting ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:28:40] [INFO ] [TomcatWebServer:243] Tomcat started on port 8080 (http) with context path '/'
+[2025-11-02 20:28:40] [INFO ] [UpMicroserviciosApplication:59] Started UpMicroserviciosApplication in 1.637 seconds (process running for 2.998)
+[2025-11-02 20:28:49] [INFO ] [[/]:168] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-11-02 20:28:49] [INFO ] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+[2025-11-02 20:28:49] [INFO ] [DispatcherServlet:554] Completed initialization in 1 ms
+[2025-11-02 20:28:54] [WARN ] [DefaultHandlerExceptionResolver:254] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "get_pacientes.html"]
+[2025-11-02 20:32:28] [INFO ] [GracefulShutdown:54] Commencing graceful shutdown. Waiting for active requests to complete
+[2025-11-02 20:32:28] [INFO ] [GracefulShutdown:76] Graceful shutdown complete
+[2025-11-02 20:32:28] [INFO ] [LocalContainerEntityManagerFactoryBean:660] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:32:28] [INFO ] [HikariDataSource:349] HikariPool-1 - Shutdown initiated...
+[2025-11-02 20:32:28] [INFO ] [HikariDataSource:351] HikariPool-1 - Shutdown completed.
+[2025-11-02 20:32:30] [INFO ] [UpMicroserviciosApplication:53] Starting UpMicroserviciosApplication using Java 21.0.8 with PID 758556 (/home/mguzman/dev/personal/micro/up_microservicios/target/classes started by mguzman in /home/mguzman/dev/personal/micro/up_microservicios)
+[2025-11-02 20:32:30] [DEBUG] [UpMicroserviciosApplication:54] Running with Spring Boot v3.5.7, Spring v6.2.12
+[2025-11-02 20:32:30] [INFO ] [UpMicroserviciosApplication:652] No active profile set, falling back to 1 default profile: "default"
+[2025-11-02 20:32:30] [INFO ] [RepositoryConfigurationDelegate:145] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-11-02 20:32:30] [INFO ] [RepositoryConfigurationDelegate:213] Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+[2025-11-02 20:32:30] [INFO ] [TomcatWebServer:111] Tomcat initialized with port 8080 (http)
+[2025-11-02 20:32:30] [INFO ] [Http11NioProtocol:168] Initializing ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:32:30] [INFO ] [StandardService:168] Starting service [Tomcat]
+[2025-11-02 20:32:30] [INFO ] [StandardEngine:168] Starting Servlet engine: [Apache Tomcat/10.1.48]
+[2025-11-02 20:32:31] [INFO ] [[/]:168] Initializing Spring embedded WebApplicationContext
+[2025-11-02 20:32:31] [INFO ] [ServletWebServerApplicationContext:301] Root WebApplicationContext: initialization completed in 564 ms
+[2025-11-02 20:32:31] [INFO ] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-11-02 20:32:31] [INFO ] [Version:44] HHH000412: Hibernate ORM core version 6.6.33.Final
+[2025-11-02 20:32:31] [INFO ] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+[2025-11-02 20:32:31] [INFO ] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-11-02 20:32:31] [INFO ] [HikariDataSource:109] HikariPool-1 - Starting...
+[2025-11-02 20:32:31] [INFO ] [HikariPool:580] HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:~/clinicaFeliz user=SA
+[2025-11-02 20:32:31] [INFO ] [HikariDataSource:122] HikariPool-1 - Start completed.
+[2025-11-02 20:32:31] [INFO ] [pooling:163] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2025-11-02 20:32:31] [INFO ] [JtaPlatformInitiator:59] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-11-02 20:32:31] [INFO ] [LocalContainerEntityManagerFactoryBean:447] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:32:31] [WARN ] [JpaBaseConfiguration$JpaWebConfiguration:258] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-11-02 20:32:31] [INFO ] [WelcomePageHandlerMapping:59] Adding welcome page: class path resource [static/index.html]
+[2025-11-02 20:32:31] [INFO ] [H2ConsoleAutoConfiguration:133] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:~/clinicaFeliz'
+[2025-11-02 20:32:31] [INFO ] [Http11NioProtocol:168] Starting ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:32:31] [INFO ] [TomcatWebServer:243] Tomcat started on port 8080 (http) with context path '/'
+[2025-11-02 20:32:31] [INFO ] [UpMicroserviciosApplication:59] Started UpMicroserviciosApplication in 1.561 seconds (process running for 2.355)
+[2025-11-02 20:32:32] [INFO ] [[/]:168] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-11-02 20:32:32] [INFO ] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+[2025-11-02 20:32:32] [INFO ] [DispatcherServlet:554] Completed initialization in 1 ms
+[2025-11-02 20:32:32] [WARN ] [DefaultHandlerExceptionResolver:254] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "get_pacientes.html"]
+[2025-11-02 20:32:37] [WARN ] [DefaultHandlerExceptionResolver:254] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "get_pacientes.html"]
+[2025-11-02 20:35:14] [WARN ] [DefaultHandlerExceptionResolver:254] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "get_pacientes.html"]
+[2025-11-02 20:35:15] [WARN ] [DefaultHandlerExceptionResolver:254] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "get_pacientes.html"]
+[2025-11-02 20:35:16] [WARN ] [DefaultHandlerExceptionResolver:254] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "get_pacientes.html"]
+[2025-11-02 20:43:29] [INFO ] [GracefulShutdown:54] Commencing graceful shutdown. Waiting for active requests to complete
+[2025-11-02 20:43:29] [INFO ] [GracefulShutdown:76] Graceful shutdown complete
+[2025-11-02 20:43:29] [INFO ] [LocalContainerEntityManagerFactoryBean:660] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:43:29] [INFO ] [HikariDataSource:349] HikariPool-1 - Shutdown initiated...
+[2025-11-02 20:43:29] [INFO ] [HikariDataSource:351] HikariPool-1 - Shutdown completed.
+[2025-11-02 20:43:32] [INFO ] [UpMicroserviciosApplication:53] Starting UpMicroserviciosApplication using Java 21.0.8 with PID 767111 (/home/mguzman/dev/personal/micro/up_microservicios/target/classes started by mguzman in /home/mguzman/dev/personal/micro/up_microservicios)
+[2025-11-02 20:43:32] [DEBUG] [UpMicroserviciosApplication:54] Running with Spring Boot v3.5.7, Spring v6.2.12
+[2025-11-02 20:43:32] [INFO ] [UpMicroserviciosApplication:652] No active profile set, falling back to 1 default profile: "default"
+[2025-11-02 20:43:32] [INFO ] [RepositoryConfigurationDelegate:145] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-11-02 20:43:32] [INFO ] [RepositoryConfigurationDelegate:213] Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[2025-11-02 20:43:32] [INFO ] [TomcatWebServer:111] Tomcat initialized with port 8080 (http)
+[2025-11-02 20:43:32] [INFO ] [Http11NioProtocol:168] Initializing ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:43:32] [INFO ] [StandardService:168] Starting service [Tomcat]
+[2025-11-02 20:43:32] [INFO ] [StandardEngine:168] Starting Servlet engine: [Apache Tomcat/10.1.48]
+[2025-11-02 20:43:32] [INFO ] [[/]:168] Initializing Spring embedded WebApplicationContext
+[2025-11-02 20:43:32] [INFO ] [ServletWebServerApplicationContext:301] Root WebApplicationContext: initialization completed in 622 ms
+[2025-11-02 20:43:33] [INFO ] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-11-02 20:43:33] [INFO ] [Version:44] HHH000412: Hibernate ORM core version 6.6.33.Final
+[2025-11-02 20:43:33] [INFO ] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+[2025-11-02 20:43:33] [INFO ] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-11-02 20:43:33] [INFO ] [HikariDataSource:109] HikariPool-1 - Starting...
+[2025-11-02 20:43:33] [INFO ] [HikariPool:580] HikariPool-1 - Added connection conn1: url=jdbc:h2:mem:~/clinicaFeliz user=SA
+[2025-11-02 20:43:33] [INFO ] [HikariDataSource:122] HikariPool-1 - Start completed.
+[2025-11-02 20:43:33] [INFO ] [pooling:163] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2025-11-02 20:43:33] [INFO ] [JtaPlatformInitiator:59] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-11-02 20:43:33] [INFO ] [LocalContainerEntityManagerFactoryBean:447] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:43:33] [WARN ] [JpaBaseConfiguration$JpaWebConfiguration:258] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-11-02 20:43:33] [INFO ] [WelcomePageHandlerMapping:59] Adding welcome page: class path resource [static/index.html]
+[2025-11-02 20:43:33] [INFO ] [H2ConsoleAutoConfiguration:133] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:~/clinicaFeliz'
+[2025-11-02 20:43:33] [INFO ] [Http11NioProtocol:168] Starting ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:43:33] [INFO ] [TomcatWebServer:243] Tomcat started on port 8080 (http) with context path '/'
+[2025-11-02 20:43:33] [INFO ] [UpMicroserviciosApplication:59] Started UpMicroserviciosApplication in 1.648 seconds (process running for 2.551)
+[2025-11-02 20:43:41] [INFO ] [[/]:168] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-11-02 20:43:41] [INFO ] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+[2025-11-02 20:43:41] [INFO ] [DispatcherServlet:554] Completed initialization in 0 ms
+[2025-11-02 20:43:41] [WARN ] [DefaultHandlerExceptionResolver:254] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "get_pacientes.html"]
+[2025-11-02 20:48:30] [INFO ] [GracefulShutdown:54] Commencing graceful shutdown. Waiting for active requests to complete
+[2025-11-02 20:48:30] [INFO ] [GracefulShutdown:76] Graceful shutdown complete
+[2025-11-02 20:48:30] [INFO ] [LocalContainerEntityManagerFactoryBean:660] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:48:30] [INFO ] [HikariDataSource:349] HikariPool-1 - Shutdown initiated...
+[2025-11-02 20:48:30] [INFO ] [HikariDataSource:351] HikariPool-1 - Shutdown completed.
+[2025-11-02 20:48:33] [INFO ] [UpMicroserviciosApplication:53] Starting UpMicroserviciosApplication using Java 21.0.8 with PID 770296 (/home/mguzman/dev/personal/micro/up_microservicios/target/classes started by mguzman in /home/mguzman/dev/personal/micro/up_microservicios)
+[2025-11-02 20:48:33] [DEBUG] [UpMicroserviciosApplication:54] Running with Spring Boot v3.5.7, Spring v6.2.12
+[2025-11-02 20:48:33] [INFO ] [UpMicroserviciosApplication:652] No active profile set, falling back to 1 default profile: "default"
+[2025-11-02 20:48:34] [INFO ] [RepositoryConfigurationDelegate:145] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-11-02 20:48:34] [INFO ] [RepositoryConfigurationDelegate:213] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[2025-11-02 20:48:34] [INFO ] [TomcatWebServer:111] Tomcat initialized with port 8080 (http)
+[2025-11-02 20:48:34] [INFO ] [Http11NioProtocol:168] Initializing ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:48:34] [INFO ] [StandardService:168] Starting service [Tomcat]
+[2025-11-02 20:48:34] [INFO ] [StandardEngine:168] Starting Servlet engine: [Apache Tomcat/10.1.48]
+[2025-11-02 20:48:34] [INFO ] [[/]:168] Initializing Spring embedded WebApplicationContext
+[2025-11-02 20:48:34] [INFO ] [ServletWebServerApplicationContext:301] Root WebApplicationContext: initialization completed in 587 ms
+[2025-11-02 20:48:34] [INFO ] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-11-02 20:48:34] [INFO ] [Version:44] HHH000412: Hibernate ORM core version 6.6.33.Final
+[2025-11-02 20:48:34] [INFO ] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+[2025-11-02 20:48:34] [INFO ] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-11-02 20:48:34] [INFO ] [HikariDataSource:109] HikariPool-1 - Starting...
+[2025-11-02 20:48:34] [INFO ] [HikariPool:580] HikariPool-1 - Added connection conn1: url=jdbc:h2:~/clinicaFeliz user=SA
+[2025-11-02 20:48:34] [INFO ] [HikariDataSource:122] HikariPool-1 - Start completed.
+[2025-11-02 20:48:34] [INFO ] [pooling:163] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2025-11-02 20:48:34] [INFO ] [JtaPlatformInitiator:59] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-11-02 20:48:34] [INFO ] [LocalContainerEntityManagerFactoryBean:447] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:48:34] [WARN ] [JpaBaseConfiguration$JpaWebConfiguration:258] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-11-02 20:48:35] [INFO ] [WelcomePageHandlerMapping:59] Adding welcome page: class path resource [static/index.html]
+[2025-11-02 20:48:35] [INFO ] [H2ConsoleAutoConfiguration:133] H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/clinicaFeliz'
+[2025-11-02 20:48:35] [INFO ] [Http11NioProtocol:168] Starting ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:48:35] [INFO ] [TomcatWebServer:243] Tomcat started on port 8080 (http) with context path '/'
+[2025-11-02 20:48:35] [INFO ] [UpMicroserviciosApplication:59] Started UpMicroserviciosApplication in 1.604 seconds (process running for 2.48)
+[2025-11-02 20:48:42] [INFO ] [[/]:168] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-11-02 20:48:42] [INFO ] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+[2025-11-02 20:48:42] [INFO ] [DispatcherServlet:554] Completed initialization in 1 ms
+[2025-11-02 20:48:42] [WARN ] [DefaultHandlerExceptionResolver:254] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; For input string: "get_pacientes.html"]
+[2025-11-02 20:51:58] [INFO ] [GracefulShutdown:54] Commencing graceful shutdown. Waiting for active requests to complete
+[2025-11-02 20:51:58] [INFO ] [GracefulShutdown:76] Graceful shutdown complete
+[2025-11-02 20:51:58] [INFO ] [LocalContainerEntityManagerFactoryBean:660] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:51:58] [INFO ] [HikariDataSource:349] HikariPool-1 - Shutdown initiated...
+[2025-11-02 20:51:58] [INFO ] [HikariDataSource:351] HikariPool-1 - Shutdown completed.
+[2025-11-02 20:52:02] [INFO ] [UpMicroserviciosApplication:53] Starting UpMicroserviciosApplication using Java 21.0.8 with PID 772580 (/home/mguzman/dev/personal/micro/up_microservicios/target/classes started by mguzman in /home/mguzman/dev/personal/micro/up_microservicios)
+[2025-11-02 20:52:02] [DEBUG] [UpMicroserviciosApplication:54] Running with Spring Boot v3.5.7, Spring v6.2.12
+[2025-11-02 20:52:02] [INFO ] [UpMicroserviciosApplication:652] No active profile set, falling back to 1 default profile: "default"
+[2025-11-02 20:52:02] [INFO ] [RepositoryConfigurationDelegate:145] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-11-02 20:52:02] [INFO ] [RepositoryConfigurationDelegate:213] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[2025-11-02 20:52:03] [INFO ] [TomcatWebServer:111] Tomcat initialized with port 8080 (http)
+[2025-11-02 20:52:03] [INFO ] [Http11NioProtocol:168] Initializing ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:52:03] [INFO ] [StandardService:168] Starting service [Tomcat]
+[2025-11-02 20:52:03] [INFO ] [StandardEngine:168] Starting Servlet engine: [Apache Tomcat/10.1.48]
+[2025-11-02 20:52:03] [INFO ] [[/]:168] Initializing Spring embedded WebApplicationContext
+[2025-11-02 20:52:03] [INFO ] [ServletWebServerApplicationContext:301] Root WebApplicationContext: initialization completed in 594 ms
+[2025-11-02 20:52:03] [INFO ] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-11-02 20:52:03] [INFO ] [Version:44] HHH000412: Hibernate ORM core version 6.6.33.Final
+[2025-11-02 20:52:03] [INFO ] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+[2025-11-02 20:52:03] [INFO ] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-11-02 20:52:03] [INFO ] [HikariDataSource:109] HikariPool-1 - Starting...
+[2025-11-02 20:52:03] [INFO ] [HikariPool:580] HikariPool-1 - Added connection conn1: url=jdbc:h2:~/clinicaFeliz user=SA
+[2025-11-02 20:52:03] [INFO ] [HikariDataSource:122] HikariPool-1 - Start completed.
+[2025-11-02 20:52:03] [INFO ] [pooling:163] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2025-11-02 20:52:03] [INFO ] [JtaPlatformInitiator:59] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-11-02 20:52:03] [INFO ] [LocalContainerEntityManagerFactoryBean:447] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:52:03] [WARN ] [JpaBaseConfiguration$JpaWebConfiguration:258] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-11-02 20:52:03] [INFO ] [WelcomePageHandlerMapping:59] Adding welcome page: class path resource [static/index.html]
+[2025-11-02 20:52:03] [INFO ] [H2ConsoleAutoConfiguration:133] H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/clinicaFeliz'
+[2025-11-02 20:52:03] [INFO ] [Http11NioProtocol:168] Starting ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:52:03] [INFO ] [TomcatWebServer:243] Tomcat started on port 8080 (http) with context path '/'
+[2025-11-02 20:52:03] [INFO ] [UpMicroserviciosApplication:59] Started UpMicroserviciosApplication in 1.661 seconds (process running for 2.519)
+[2025-11-02 20:52:12] [INFO ] [[/]:168] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-11-02 20:52:12] [INFO ] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+[2025-11-02 20:52:12] [INFO ] [DispatcherServlet:554] Completed initialization in 1 ms
+[2025-11-02 20:53:02] [INFO ] [GracefulShutdown:54] Commencing graceful shutdown. Waiting for active requests to complete
+[2025-11-02 20:53:02] [INFO ] [GracefulShutdown:76] Graceful shutdown complete
+[2025-11-02 20:53:02] [INFO ] [LocalContainerEntityManagerFactoryBean:660] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:53:02] [INFO ] [HikariDataSource:349] HikariPool-1 - Shutdown initiated...
+[2025-11-02 20:53:02] [INFO ] [HikariDataSource:351] HikariPool-1 - Shutdown completed.
+[2025-11-02 20:53:09] [INFO ] [UpMicroserviciosApplication:53] Starting UpMicroserviciosApplication using Java 21.0.8 with PID 773429 (/home/mguzman/dev/personal/micro/up_microservicios/target/classes started by mguzman in /home/mguzman/dev/personal/micro/up_microservicios)
+[2025-11-02 20:53:09] [DEBUG] [UpMicroserviciosApplication:54] Running with Spring Boot v3.5.7, Spring v6.2.12
+[2025-11-02 20:53:09] [INFO ] [UpMicroserviciosApplication:652] No active profile set, falling back to 1 default profile: "default"
+[2025-11-02 20:53:09] [INFO ] [RepositoryConfigurationDelegate:145] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2025-11-02 20:53:09] [INFO ] [RepositoryConfigurationDelegate:213] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[2025-11-02 20:53:09] [INFO ] [TomcatWebServer:111] Tomcat initialized with port 8080 (http)
+[2025-11-02 20:53:09] [INFO ] [Http11NioProtocol:168] Initializing ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:53:09] [INFO ] [StandardService:168] Starting service [Tomcat]
+[2025-11-02 20:53:09] [INFO ] [StandardEngine:168] Starting Servlet engine: [Apache Tomcat/10.1.48]
+[2025-11-02 20:53:09] [INFO ] [[/]:168] Initializing Spring embedded WebApplicationContext
+[2025-11-02 20:53:09] [INFO ] [ServletWebServerApplicationContext:301] Root WebApplicationContext: initialization completed in 586 ms
+[2025-11-02 20:53:09] [INFO ] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2025-11-02 20:53:09] [INFO ] [Version:44] HHH000412: Hibernate ORM core version 6.6.33.Final
+[2025-11-02 20:53:09] [INFO ] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+[2025-11-02 20:53:09] [INFO ] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+[2025-11-02 20:53:09] [INFO ] [HikariDataSource:109] HikariPool-1 - Starting...
+[2025-11-02 20:53:10] [INFO ] [HikariPool:580] HikariPool-1 - Added connection conn1: url=jdbc:h2:~/clinicaFeliz user=SA
+[2025-11-02 20:53:10] [INFO ] [HikariDataSource:122] HikariPool-1 - Start completed.
+[2025-11-02 20:53:10] [INFO ] [pooling:163] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2025-11-02 20:53:10] [INFO ] [JtaPlatformInitiator:59] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2025-11-02 20:53:10] [INFO ] [LocalContainerEntityManagerFactoryBean:447] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2025-11-02 20:53:10] [WARN ] [JpaBaseConfiguration$JpaWebConfiguration:258] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2025-11-02 20:53:10] [INFO ] [WelcomePageHandlerMapping:59] Adding welcome page: class path resource [static/index.html]
+[2025-11-02 20:53:10] [INFO ] [H2ConsoleAutoConfiguration:133] H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/clinicaFeliz'
+[2025-11-02 20:53:10] [INFO ] [Http11NioProtocol:168] Starting ProtocolHandler ["http-nio-8080"]
+[2025-11-02 20:53:10] [INFO ] [TomcatWebServer:243] Tomcat started on port 8080 (http) with context path '/'
+[2025-11-02 20:53:10] [INFO ] [UpMicroserviciosApplication:59] Started UpMicroserviciosApplication in 1.604 seconds (process running for 2.394)
+[2025-11-02 20:53:16] [INFO ] [[/]:168] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-11-02 20:53:16] [INFO ] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+[2025-11-02 20:53:16] [INFO ] [DispatcherServlet:554] Completed initialization in 1 ms
