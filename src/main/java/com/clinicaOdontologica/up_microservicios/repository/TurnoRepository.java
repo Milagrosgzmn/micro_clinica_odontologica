@@ -8,9 +8,9 @@ import java.util.List;
 import java.util.Optional;
 
 public interface TurnoRepository extends JpaRepository<Turno, Long> {
-    public Optional<List<Turno>> findByPacienteId(Long id);
+    Optional<List<Turno>> findByPacienteId(Long id);
 
-    public Optional<List<Turno>> findByOdontologoId(Long id);
+    Optional<List<Turno>> findByOdontologoId(Long id);
 
-    public Optional<List<Turno>> findByFechaCita(LocalDateTime fechaCita);
+    Optional<List<Turno>> findByFechaCita(LocalDateTime fechaCita);
 }

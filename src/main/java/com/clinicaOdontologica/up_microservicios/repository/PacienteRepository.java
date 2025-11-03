@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
 public interface PacienteRepository extends JpaRepository<Paciente, Long> {
-    public Optional<Paciente> findByEmail(String email);
+    Optional<Paciente> findByEmail(String email);
 
-    public Optional<Paciente> findByNumeroContacto(Integer numero);
+    Optional<Paciente> findByNumeroContacto(Integer numero);
 }
