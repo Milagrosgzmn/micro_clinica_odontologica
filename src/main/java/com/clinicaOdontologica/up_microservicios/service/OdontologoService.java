@@ -1,45 +1,44 @@
 package com.clinicaOdontologica.up_microservicios.service;
 
-import com.clinicaOdontologica.up_microservicios.dao.iDao;
-import com.clinicaOdontologica.up_microservicios.model.Odontologo;
+import com.clinicaOdontologica.up_microservicios.entity.Odontologo;
+import com.clinicaOdontologica.up_microservicios.repository.OdontologoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
-public class OdontologoService implements iService<Odontologo> {
-    private final iDao<Odontologo> odontologoiDao;
+@Service
+public class OdontologoService {
+    private final OdontologoRepository odontologoRepository;
 
-    public OdontologoService(iDao<Odontologo> odontologoiDao) {
-        this.odontologoiDao = odontologoiDao;
+    @Autowired
+    public OdontologoService(OdontologoRepository odontologoRepository) {
+        this.odontologoRepository = odontologoRepository;
     }
 
-    @Override
-    public Odontologo guardar(Odontologo odontologo) {
-        return odontologoiDao.guardar(odontologo);
+    public Odontologo guardarOdontologo(Odontologo odontologo) {
+        return odontologoRepository.save(odontologo);
     }
 
-    @Override
-    public Optional<Odontologo> buscar(Integer id) {
-        return odontologoiDao.buscar(id);
+    public Optional<Odontologo> obtenerOdontologoPorId(Long id) {
+        return odontologoRepository.findById(id);
     }
 
-    @Override
-    public void eliminar(Integer id) {
-        odontologoiDao.eliminar(id);
+    public List<Odontologo> obtenerOdontologos() {
+        return odontologoRepository.findAll();
     }
 
-    @Override
-    public void actualizar(Odontologo odontologo) {
-        odontologoiDao.actualizar(odontologo);
+    public Optional<Odontologo> obtenerOdontologoPorMatricula(String matricula) {
+        return odontologoRepository.findByMatricula(matricula);
     }
 
-    @Override
-    public Odontologo buscarGenerico(String parametro) {
-        return odontologoiDao.buscarGenerico(parametro);
+    public void actualizarOdontologo(Odontologo odontologo) {
+        // validar
+        odontologoRepository.save(odontologo);
     }
 
-    @Override
-    public List<Odontologo> buscarTodos() {
-        return odontologoiDao.buscarTodos();
+    public void eliminarOdontologo(Long id) {
+        odontologoRepository.deleteById(id);
     }
 }

@@ -1,7 +1,7 @@
 package com.clinicaOdontologica.up_microservicios.service;
 
-import com.clinicaOdontologica.up_microservicios.dao.iDao;
-import com.clinicaOdontologica.up_microservicios.model.Paciente;
+import com.clinicaOdontologica.up_microservicios.entity.Paciente;
+import com.clinicaOdontologica.up_microservicios.repository.PacienteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,43 +9,41 @@ import java.util.List;
 import java.util.Optional;
 
 @Service //Indicamos a spring que es un service
-public class PacienteService implements iService<Paciente> {
-    private final iDao<Paciente> pacienteiDao;
+public class PacienteService {
+    private final PacienteRepository pacienteRepository;
 
     @Autowired
-    public PacienteService(iDao<Paciente> pacienteiDao) {
-        this.pacienteiDao = pacienteiDao;
+    public PacienteService(PacienteRepository pacienteRepository) {
+        this.pacienteRepository = pacienteRepository;
     }
 
-    @Override
-    public Paciente guardar(Paciente paciente) {
-        return pacienteiDao.guardar(paciente);
+    public Paciente guardarPaciente(Paciente paciente) {
+        return pacienteRepository.save(paciente);
     }
 
-    @Override
-    public Optional<Paciente> buscar(Integer id) {
-        return pacienteiDao.buscar(id);
+    public List<Paciente> obtenerPacientes() {
+        return pacienteRepository.findAll();
     }
 
-    @Override
-    public void eliminar(Integer id) {
-        pacienteiDao.eliminar(id);
-        return;
+    public Optional<Paciente> obtenerPaciente(Long id) {
+        return pacienteRepository.findById(id);
     }
 
-    @Override
-    public void actualizar(Paciente paciente) {
-        pacienteiDao.actualizar(paciente);
-        return;
+    public Optional<Paciente> obtenerPacientePorMail(String email) {
+        return pacienteRepository.findByEmail(email);
     }
 
-    @Override
-    public Paciente buscarGenerico(String parametro) {
-        return pacienteiDao.buscarGenerico(parametro);
+    public Optional<Paciente> obtenerPacientePorContacto(Integer contacto) {
+        return pacienteRepository.findByNumeroContacto(contacto);
     }
 
-    @Override
-    public List<Paciente> buscarTodos() {
-        return pacienteiDao.buscarTodos();
+    public void actualizarPaciente(Paciente paciente) {
+        //deberia validar campos y actualizar en base a eso - o es tan abstraido?
+        pacienteRepository.save(paciente);
     }
+
+    public void eliminarPaciente(Long id) {
+        pacienteRepository.deleteById(id);
+    }
+
 }
